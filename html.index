@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- NavBar -->
+    <nav class="navbar">
+        <div class="logo">My Portfolio</div>
+        <ul class="nav-links">
+            <li><a href="#About">About</a></li>
+            <li><a href="#Skills">Skills</a></li>
+            <li><a href="#Projects">Projects</a></li>
+            <li><a href="#Contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Hero Section -->
+    
+    <section class="hero">
+        
+        <div class="hero-text">
+            <h1>Hi, I am a</h1>
+            <h2 class="highlight">Full Stack Developer</h2>
+            <p>Building modern web applications with MERN stack.</p>
+        </div>
+        <div class="hero-img">
+            <img src="profile.jpg" alt="profile">
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="About">
+    <section class="about">
+        <h2>About Me</h2>
+        <p>
+            Hi, I am Sushant, a web developer in the making, driven by a passion for innovation. Each day, I push myself to learn more,
+             refine my craft, and explore the endless possibilities of the digital world. For me, web development is not just about 
+             coding but about creativity, problem-solving, and shaping experiences. My ultimate goal is to grow into a developer 
+             who crafts solutions that truly matter and contribute to solving real-world problems.
+        </p>
+    </section>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="Skills"></section>
+    <section class="skills">
+        <h2>My Skills</h2>
+        <div class="skills-container">
+            <div class="skill-card">HTML <span>Mastered</span></div>
+            <div class="skill-card">CSS <span>Intermediate</span></div>
+            <div class="skill-card">JavaScript <span>Learning</span></div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="Projects"></section>
+    <section class="projects">
+        <h2>My Projects</h2>
+        <div>
+            <div class="project-card">
+                <h3>Project 1</h3>
+                <p>HTML Base Portfolio</p>
+            </div>
+
+            <div class="project-card">
+                <h3>Project 2</h3>
+                <p>CSS Styled Portfolio</p>
+            </div>
+
+            <div class="project-card">
+                <h3>Project 3</h3>
+                <p>Python Calorie Tracker</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="Contact"></section> 
+    <section class="contact">
+        <h2>Contact Me</h2>
+
+        <form class="contact-form">
+            <input type="text" placeholder="Enter your name" required>
+            <input type="email" placeholder="Enter your email" required>
+            <textarea placeholder="Write your message" required></textarea>
+            <button type="submit">Send</button>
+        </form>
+    </section>
+
+
+    <!-- Footer -->
+    <footer>
+        © 2025 Prakash. All rights reserved.
+    </footer>
+
+    <a href="#" class="back-to-top">↑ Back to Top</a>
+
+</body>
+</html>
